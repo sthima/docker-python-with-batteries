@@ -6,4 +6,4 @@ RUN apt-get install ruby2.1 nodejs-legacy npm -y
 
 RUN gem2.1 install sass
 
-RUN npm install -g bower less
+RUN npm install -g bower less coffeescript
